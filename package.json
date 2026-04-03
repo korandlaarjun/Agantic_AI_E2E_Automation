@@ -2,7 +2,7 @@
   "name": "ai-automation-e2e",
   "version": "1.0.0",
   "description": "AI Automation End-to-End Testing",
-  "main": "src/index.ts",
+  "main": "dist/index.js",
   "scripts": {
     "test": "playwright test",
     "test:headed": "playwright test --headed",
@@ -10,6 +10,7 @@
     "test:ui": "playwright test --ui",
     "build": "tsc",
     "dev": "ts-node",
+    "mcp-server": "tsx src/mcp-server.ts",
     "codegen": "playwright codegen",
     "lint": "eslint src/**/*.ts",
     "format": "prettier --write src/**/*.ts"
@@ -30,11 +31,15 @@
     "eslint": "^8.0.0",
     "prettier": "^3.0.0",
     "ts-node": "^10.9.1",
+    "tsx": "^4.21.0",
     "typescript": "^5.0.0"
   },
   "dependencies": {
-    "axios": "^1.6.0",
+    "@modelcontextprotocol/server": "^2.0.0-alpha.2",
+    "@types/nodemailer": "^7.0.11",
+    "csv-parse": "^6.2.1",
     "dotenv": "^16.3.1",
+    "nodemailer": "^6.9.7",
     "playwright": "^1.40.0"
   }
 }
