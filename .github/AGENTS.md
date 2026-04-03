@@ -1,323 +1,346 @@
-# Testing Agents
+# Testing Agent
 
-A comprehensive suite of specialized AI agents designed to manage the complete testing lifecycle with advanced capabilities, robustness, and effectiveness.
+A single comprehensive AI agent designed to manage the complete testing lifecycle with advanced capabilities, robustness, and effectiveness.
 
 ## Agent Overview
 
 ### 🏗️ Test Engineer
-**Role**: Test Automation Architect  
-**When to use**: Building test infrastructure, designing test frameworks, implementing automation solutions, creating reusable test utilities
+**File**: `.github/agents/test-engineer.agent.md`  
+**Role**: Comprehensive Test Engineering Expert  
+**Specialization**: Complete testing lifecycle - planning, architecture, execution, and debugging
 
-**Key Responsibilities**:
-- Design scalable test architecture
-- Implement testing frameworks (Playwright, Jest, etc.)
-- Build page objects and test utilities
-- Optimize test performance
-- Configure CI/CD integration
+**Capabilities**:
+- Test strategy and planning
+- Test framework design and implementation
+- Automated test execution and monitoring
+- Failure diagnosis and debugging
+- Performance optimization
+- Complete infrastructure configuration
 
-**Input**: Design requirements, feature scope, performance goals  
-**Output**: Production-ready framework, architecture docs, helper utilities
-
----
-
-### 📋 Test Planner
-**Role**: Test Strategy Architect  
-**When to use**: Planning test coverage, creating test strategies, prioritizing test scenarios, roadmapping test execution
-
-**Key Responsibilities**:
-- Develop comprehensive testing strategies
-- Identify all testable scenarios and edge cases
-- Create coverage matrices
-- Risk-based test prioritization
-- Estimate effort and timeline
-
-**Input**: Feature requirements, scope, risk factors  
-**Output**: Test plan, coverage matrix, prioritized roadmap, metrics
+**Key Strengths**:
+- Handles all testing phases (plan → build → execute → debug)
+- Advanced root cause analysis
+- Performance monitoring and optimization
+- Production-grade framework implementation
+- Comprehensive documentation and examples
 
 ---
 
-### 🚀 Test Executer
-**Role**: Test Execution Orchestrator  
-**When to use**: Running test suites, monitoring results, optimizing execution performance, generating reports
+## What This Agent Does
 
-**Key Responsibilities**:
-- Execute tests with optimal configurations
-- Parallelize and distribute test execution
-- Monitor progress and performance
-- Capture and analyze results
-- Generate comprehensive reports
+### 🎯 Planning & Strategy
+```
+Input: Feature requirements
+↓
+- Analyze scope and requirements
+- Identify test scenarios and edge cases
+- Build coverage matrices
+- Assess risks and business impact
+- Prioritize tests
+- Create timeline and estimates
+↓
+Output: Comprehensive test plan with roadmap
+```
 
-**Input**: Test suite location, execution parameters, environment config  
-**Output**: Test results, performance metrics, HTML report, artifacts
+### 🏗️ Framework & Infrastructure
+```
+Input: Test plan or requirements
+↓
+- Design scalable architecture
+- Implement chosen framework (Playwright, Jest, etc.)
+- Build page objects and utilities
+- Set up CI/CD integration
+- Optimize parallelization
+↓
+Output: Production-ready framework with docs
+```
+
+### 🚀 Test Execution
+```
+Input: Test suite location and config
+↓
+- Execute tests with optimal settings
+- Monitor performance and progress
+- Capture detailed results
+- Generate reports
+- Analyze trends
+↓
+Output: Results report, metrics, recommendations
+```
+
+### 🔧 Debugging & Fixing
+```
+Input: Failed test with error info
+↓
+- Collect evidence and reproduce
+- Diagnose root cause
+- Implement fix
+- Verify resolution
+- Create prevention measures
+↓
+Output: Root cause analysis, fix, prevention strategy
+```
 
 ---
 
-### 🔧 Test Healer
-**Role**: Test Failure Specialist  
-**When to use**: Debugging test failures, fixing broken tests, eliminating flakiness, improving reliability
+## Unified Workflow
 
-**Key Responsibilities**:
-- Diagnose test failures
-- Analyze root causes
-- Fix flaky and broken tests
-- Implement stability measures
-- Prevent regression
+### Simple Example: Test a Login Feature
 
-**Input**: Failed test, error logs, failure context  
-**Output**: Root cause analysis, fix implementation, prevention strategy
+```
+1. Plan
+   "Create comprehensive test plan for login feature"
+   → Coverage matrix, test scenarios, timeline
+
+2. Build
+   "Build Playwright framework with page objects for login tests"
+   → Framework, utilities, examples
+
+3. Execute
+   "Run all login tests with performance metrics"
+   → Results report, performance data
+
+4. Debug (if needed)
+   "Why does the login test timeout intermittently?"
+   → Root cause, fix, prevention
+```
+
+---
+
+## How to Use
+
+### For Any Testing Task
+
+```bash
+# Simply ask the Test Engineer for what you need:
+/agent Test Engineer
+```
+
+**Example Prompts:**
+
+Planning:
+- "Plan comprehensive test coverage for [feature]"
+- "What test scenarios should we cover?"
+- "Create test strategy for [module]"
+
+Building:
+- "Build Playwright E2E framework with page objects"
+- "Create test utility library"
+- "Set up CI/CD pipeline for tests"
+
+Executing:
+- "Run all tests with performance analysis"
+- "Execute tests and generate report"
+- "Show me which tests are slowest"
+
+Debugging:
+- "Fix this failing test with timeout error"
+- "Why does this test fail randomly?"
+- "Debug flaky API tests"
+
+---
+
+## Technical Capabilities
+
+### Supported Frameworks
+- Playwright (recommended)
+- Jest
+- Mocha
+- Cypress
+- Selenium
+- Puppeteer
+
+### Design Patterns
+- Page Object Model
+- AAA (Arrange-Act-Assert)
+- Factory patterns
+- Fixture management
+- Custom utility functions
+
+### Infrastructure
+- Docker containerization
+- GitHub Actions setup
+- Jenkins integration
+- Cloud platform deployment
+- Kubernetes orchestration
+
+### Analysis & Monitoring
+- Performance profiling
+- Flakiness detection
+- Trend analysis
+- Root cause diagnosis
+- Resource optimization
+
+---
+
+## Advanced Features
+
+### Performance Optimization
+- Test parallelization strategies
+- Resource utilization analysis
+- Flaky test detection
+- Trend tracking and forecasting
+- Execution time optimization
+
+### Comprehensive Reporting
+- Test results with full details
+- Performance metrics and trends
+- Failure root cause analysis
+- Coverage matrices
+- Historical comparison
+
+###Risk-Based Approach
+- Business impact assessment
+- Failure consequence analysis
+- Prevention strategy development
+- Quality metrics tracking
+
+### Team Enablement
+- Clear documentation
+- Code examples and patterns
+- Best practices guidance
+- Onboarding support
+- Knowledge sharing
+
+---
+
+## Quality Standards
+
+Every Test Engineer output includes:
+- ✅ Production-quality code
+- ✅ Comprehensive documentation
+- ✅ Working examples
+- ✅ Performance considerations
+- ✅ Maintenance strategy
+- ✅ Team guidelines
 
 ---
 
 ## Workflow Patterns
 
-### Pattern 1: New Feature Testing (Plan → Engineer → Planner → Executer)
-
-1. **Test Engineer**: Design test architecture for new feature
-   - Create page objects, utilities
-   - Set up test structure
-   
-2. **Test Planner**: Plan comprehensive test coverage
-   - Identify test scenarios
-   - Create coverage matrix
-   - Prioritize tests
-   
-3. **Test Executer**: Run tests and collect results
-   - Execute test suite
-   - Monitor performance
-   - Generate report
-   
-4. **Test Healer** (if needed): Fix failures
-   - Diagnose issues
-   - Implement fixes
-
-### Pattern 2: Test Maintenance (Planner → Executer → Healer)
-
-1. **Test Planner**: Review existing tests
-   - Identify gaps
-   - Assess coverage
-   
-2. **Test Executer**: Run full test suite
-   - Capture results
-   - Identify failures
-   
-3. **Test Healer**: Fix broken and flaky tests
-   - Diagnose failures
-   - Stabilize tests
-
-### Pattern 3: CI/CD Integration (Engineer → Executer → Healer)
-
-1. **Test Engineer**: Set up CI/CD pipeline
-   - Configure automation
-   - Parallelize execution
-   
-2. **Test Executer**: Orchestrate pipeline execution
-   - Run tests
-   - Generate reports
-   
-3. **Test Healer**: Handle failures
-   - Quick diagnosis
-   - Rapid fixes
-
-### Pattern 4: Performance Optimization (Executer → Engineer → Healer)
-
-1. **Test Executer**: Profile current execution
-   - Collect performance data
-   - Identify slow tests
-   
-2. **Test Engineer**: Optimize architecture
-   - Improve framework config
-   - Parallelize better
-   
-3. **Test Healer**: Stabilize optimized tests
-   - Verify reliability
-   - Fix performance regressions
-
----
-
-## Tool Specialization
-
-| Agent | Key Tools | Best For |
-|-------|-----------|----------|
-| **Test Engineer** | read, edit, search, execute, agent, todo | Building infrastructure |
-| **Test Planner** | read, search, todo, agent | Analyzing scope |
-| **Test Executer** | execute, read, edit, search, todo, agent | Running tests & monitoring |
-| **Test Healer** | read, edit, search, execute, agent, todo | Debugging failures |
-
----
-
-## Recommended Usage Sequence
-
-### Development Phase
+### Pattern 1: New Feature Testing
 ```
-1. Test Engineer → Design framework
-2. Test Planner → Plan tests
-3. Test Engineer → Implement tests
-4. Test Executer → Run tests
-5. Test Healer → Fix issues (as needed)
+1. Test Engineer (plan coverage)
+2. Test Engineer (build framework)
+3. Test Engineer (run tests)
+4. Test Engineer (debug if failures)
+✓ Complete feature testing
 ```
 
-### Ongoing Maintenance
+### Pattern 2: Maintenance
 ```
-1. Test Executer → Run tests regularly
-2. Test Healer → Fix failures as they appear
-3. Test Planner → Review coverage periodically
-4. Test Engineer → Refactor and optimize as needed
-```
-
-### Performance Optimization Phase
-```
-1. Test Executer → Measure performance
-2. Test Engineer → Optimize framework
-3. Test Executer → Verify improvements
-4. Test Healer → Stabilize optimized tests
+1. Test Engineer (run full suite)
+2. Test Engineer (analyze results)
+3. Test Engineer (fix failures)
+4. Test Engineer (optimize if needed)
+✓ Continuous quality
 ```
 
----
-
-## Advanced Capabilities
-
-### Test Engineer
-- ✓ Multi-framework support (Playwright, Jest, Cypress, Selenium)
-- ✓ Design Pattern expertise (Page Object Model, AAA, Fixtures)
-- ✓ Infrastructure optimization (Docker, Kubernetes, CI/CD)
-- ✓ Performance tuning and parallelization
-- ✓ Data generation and mock server setup
-
-### Test Planner
-- ✓ Comprehensive coverage analysis
-- ✓ Risk-based prioritization algorithms
-- ✓ Edge case identification
-- ✓ Performance and security testing scope
-- ✓ Regression testing strategy
-
-### Test Executer
-- ✓ Intelligent test distribution and parallelization
-- ✓ Performance monitoring and trending
-- ✓ Flakiness detection algorithms
-- ✓ Advanced result aggregation
-- ✓ Comprehensive artifact collection
-
-### Test Healer
-- ✓ Root cause analysis with confidence scoring
-- ✓ Flakiness pattern recognition
-- ✓ Systematic debugging methodology
-- ✓ Prevention recommendation engine
-- ✓ Long-term reliability improvement strategies
+### Pattern 3: Optimization
+```
+1. Test Engineer (measure performance)
+2. Test Engineer (optimize framework)
+3. Test Engineer (verify improvements)
+4. Test Engineer (stabilize changes)
+✓ Better performance
+```
 
 ---
 
 ## Integration Points
 
 ### With Version Control
-- Test Engineer: Commit framework changes
-- Test Planner: Document test strategy
-- Test Executer: Archive results
-- Test Healer: Fix and commit test repairs
+- Branch strategies for test changes
+- Feature branch testing
+- PR validation and reviews
 
 ### With CI/CD
-- Test Engineer: Configure pipelines
-- Test Planner: Define test stages
-- Test Executer: Orchestrate execution
-- Test Healer: Provide failure feedback
+- Automated test pipelines
+- Multi-stage test execution
+- Artifact archival and reporting
 
 ### With Team
-- Test Engineer: Share architecture decisions
-- Test Planner: Communicate coverage goals
-- Test Executer: Report results to stakeholders
-- Test Healer: Brief team on failure patterns
+- Shared test strategies
+- Code review guidance
+- Knowledge documentation
 
 ---
 
 ## Best Practices
 
-### For Test Engineer
-- Document architectural decisions
-- Provide clear examples
-- Use proven frameworks
-- Optimize for maintainability first, speed second
-- Version control all configuration
-
-### For Test Planner
-- Involve team in coverage planning
-- Document risk assessment
-- Balance automation vs. manual testing
-- Review and adjust as product evolves
-- Track coverage metrics over time
-
-### For Test Executer
-- Monitor trend data over time
-- Alert on anomalies
-- Archive all artifacts
-- Optimize for consistent, predictable execution
-- Provide actionable failure information
-
-### For Test Healer
-- Document all failure patterns
-- Establish prevention measures
-- Follow systematic diagnosis methodology
-- Build knowledge base of common issues
-- Prevent regression through automated checks
+1. **Plan First**: Always start with test strategy
+2. **Build Right**: Use proven patterns and frameworks
+3. **Monitor Always**: Track performance and trends
+4. **Fix Fast**: Quick response to failures
+5. **Document Well**: Clear guidance for team
+6. **Optimize Continuously**: Performance improvements
+7. **Prevent Regression**: Build in prevention measures
 
 ---
 
-## Quick Start Guide
+## Getting Started
 
-### Getting Started with All 4 Agents
+### Quick Start
 
-1. **Start with Test Planner**
-   - Ask: "Plan testing for [feature]"
-   - Output: Coverage matrix and test roadmap
+```bash
+# 1. First task - Plan your tests
+/agent Test Engineer
+"Plan testing for [your feature]"
 
-2. **Move to Test Engineer**
-   - Ask: "Build test framework for [feature]"
-   - Output: Framework setup and utilities
+# 2. Next - Build the framework
+/agent Test Engineer
+"Build framework based on the plan"
 
-3. **Run with Test Executer**
-   - Ask: "Execute [test suite]"
-   - Output: Results report and metrics
+# 3. Then - Run the tests
+/agent Test Engineer
+"Execute all tests with metrics"
 
-4. **Use Test Healer as Needed**
-   - Ask: "Debug [failing test]"
-   - Output: Root cause and fix
+# 4. Handle issues
+/agent Test Engineer
+"Debug this failing test"
+```
 
----
+### Full Development Workflow
 
-## Success Metrics
+```bash
+# Setup
+bash .github/scripts/setup-dev.sh
 
-Each agent contributes to overall test success:
+# Create branch
+bash .github/scripts/create-branch.sh
 
-- **Test Engineer**: Code quality, maintainability, test speed
-- **Test Planner**: Coverage %, risk mitigation, test ROI
-- **Test Executer**: Execution efficiency, result reliability, reporting completeness
-- **Test Healer**: Test stability, flakiness reduction, time to fix
+# Ask Test Engineer
+/agent Test Engineer
+"[Your testing task]"
 
----
+# Make changes
+# ...
 
-## FAQ
-
-**Q: Can I use just one agent?**  
-A: Yes, but the orchestration of all 4 provides maximum value. Start with the one matching your immediate need.
-
-**Q: When should I update my test strategy?**  
-A: Use Test Planner when requirements significantly change or coverage gaps are identified.
-
-**Q: How do I prevent test flakiness?**  
-A: Test Engineer (with proper waits/assertions), Test Planner (with risks identified), Test Healer (with preventive measures).
-
-**Q: Can these agents be used for performance testing?**  
-A: Yes—Test Planner defines performance scenarios, Test Engineer builds infrastructure, Test Executer runs benchmarks, Test Healer diagnoses regressions.
+# Commit and push
+git add .
+git commit -m "..."
+git push origin <branch>
+```
 
 ---
 
-## Support Matrix
+## Why One Comprehensive Agent?
 
-| Need | Primary Agent | Secondary |
-|------|---------------|-----------|
-| Build framework | Test Engineer | - |
-| Plan tests | Test Planner | Test Engineer |
-| Run tests | Test Executer | Test Planner |
-| Fix failures | Test Healer | Test Engineer |
-| Performance | Test Executer | Test Engineer |
-| Coverage gaps | Test Planner | Test Healer |
-| Refactor tests | Test Engineer | Test Planner |
-| Stabilize tests | Test Healer | Test Engineer |
+✅ **Single Interface**: One agent handles all testing needs  
+✅ **Context Aware**: Understands full testing lifecycle  
+✅ **Comprehensive**: Can handle complex multi-phase tasks  
+✅ **Efficient**: No coordination overhead between agents  
+✅ **Consistent**: Single voice and approach  
+✅ **Versatile**: Adapts to any testing scenario  
+
+---
+
+## Support
+
+**For questions**: See `.github/BRANCHING-STRATEGY.md`  
+**For setup**: See `.github/copilot-instructions.md`  
+**For workflows**: See `.github/AGENTS-QUICK-REFERENCE.md`  
+
+---
+
+**Ready to test? Ask the Test Engineer!** 🚀

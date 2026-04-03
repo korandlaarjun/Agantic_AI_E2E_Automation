@@ -2,18 +2,15 @@
 
 This is a Node.js/TypeScript project for AI automation end-to-end testing using Playwright.
 
-## 🎯 Quick Start with Testing Agents
+## 🎯 Quick Start with Test Engineer Agent
 
-We have 4 specialized AI agents to help with every aspect of testing:
+We have one comprehensive AI agent that handles all aspects of testing:
 
 | Agent | Purpose | Command |
 |-------|---------|---------|
-| **Test Engineer** | Build test frameworks and infrastructure | `/agent Test Engineer` |
-| **Test Planner** | Plan test coverage and strategy | `/agent Test Planner` |
-| **Test Executer** | Run tests and generate reports | `/agent Test Executer` |
-| **Test Healer** | Debug and fix test failures | `/agent Test Healer` |
+| **Test Engineer** | Complete testing lifecycle - plan, build, execute, debug | `/agent Test Engineer` |
 
-**See `.github/AGENTS-QUICK-REFERENCE.md` for usage examples and workflows.**
+**See `.github/AGENTS-QUICK-REFERENCE.md` for quick examples and use cases.**
 
 ## Completed Setup Steps
 
@@ -22,7 +19,8 @@ We have 4 specialized AI agents to help with every aspect of testing:
 - [x] Dependencies installed successfully
 - [x] Project compiles without errors
 - [x] VS Code tasks configured for build, test, and dev
-- [x] 4 Specialized testing agents created and configured
+- [x] Comprehensive Test Engineer agent configured for all testing needs
+- [x] Git hooks and branching strategy implemented
 
 ## Project Information
 
