@@ -79,7 +79,7 @@ for (const record of filtersRecords) {
   );
   const oldest = sorted[0];
   const oldestTime = new Date(oldest.created_at).getTime();
-  const MAX_DIFF_MS = 5 * 60 * 1000; // 5 minute
+  const MAX_DIFF_MS = 15 * 60 * 1000; // 5 minute
 
   let createdTimeDiff = new Date().getTime() - new Date(oldest.created_at).getTime();
 

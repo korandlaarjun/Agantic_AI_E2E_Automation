@@ -1,0 +1,201 @@
+Scenario,TicketName,TicketSummary,TicketDescription
+create ticket,Ticket001,Account locked,I tried to sign in too many times and my account is locked. Please unlock it and tell me what verification you need.
+create ticket,Ticket002,Account setup,I started onboarding but the setup does not finish after I save my profile. Please complete the setup and activate my account.
+create ticket,Ticket003,Form addition,I need a new form added to my profile for required data. Please add the form and confirm when it is available.
+create ticket,Ticket004,Login issues,I cannot log in even with correct credentials and the page loops back to sign in. Please restore access.
+create ticket,Ticket005,Password reset,My reset link fails after I submit a new password. Please send a working link or reset it for me.
+create ticket,Ticket006,Account locked,My account was disabled after several failed attempts. Please unlock it and advise next steps.
+create ticket,Ticket007,Account setup,The onboarding flow returns me to the start after profile details. Please fix setup and enable my account.
+create ticket,Ticket008,Form addition,Please add a form for extra compliance fields in my profile. Let me know once it is ready.
+create ticket,Ticket009,Login issues,MFA is prompted but no code arrives and I cannot sign in. Please resolve the login issue.
+create ticket,Ticket010,Password reset,The password reset page shows an error after I enter a new password. Please help reset it.
+create ticket,Ticket011,Account locked,I was locked out after trying a new device. Please unlock my account and confirm any checks.
+create ticket,Ticket012,Account setup,My account setup freezes after profile creation and features stay disabled. Please complete onboarding.
+create ticket,Ticket013,Form addition,I need a new profile form for additional fields we must capture. Please add it.
+create ticket,Ticket014,Login issues,Login keeps failing and sends me back to the sign in screen. Please investigate and restore access.
+create ticket,Ticket015,Password reset,The reset email link is expired and retry gives the same error. Please issue a valid link.
+create ticket,Ticket016,Account locked,I hit the security limit while trying passwords and now access is blocked. Please unlock my account.
+create ticket,Ticket017,Account setup,The onboarding checklist will not finish and I cannot enable features. Please finalize setup.
+create ticket,Ticket018,Form addition,Please add a form to my profile for new workflow data. Confirm when available.
+create ticket,Ticket019,Login issues,My credentials are correct but login never completes. Please fix the sign in issue.
+create ticket,Ticket020,Password reset,Reset fails every time after I submit a new password. Please reset it on your side.
+create ticket,Ticket021,Account locked,My account shows locked after repeated sign in attempts. Please unlock and advise verification steps.
+create ticket,Ticket022,Account setup,Onboarding loops after I submit profile details. Please fix setup and activate my account.
+create ticket,Ticket023,Form addition,I need an extra form added to capture required profile data. Please add it and confirm.
+create ticket,Ticket024,Login issues,I cannot log in and the MFA code never arrives. Please fix MFA delivery.
+create ticket,Ticket025,Password reset,The reset link opens but the password update fails. Please provide a working reset.
+create ticket,Ticket026,Account locked,Access is disabled after too many login attempts. Please unlock my account so I can continue.
+create ticket,Ticket027,Account setup,The setup page will not save my profile and restarts. Please help complete onboarding.
+create ticket,Ticket028,Form addition,Please add a new form to my profile for required fields. Let me know when it is live.
+create ticket,Ticket029,Login issues,Sign in fails even though I know the password is right. Please restore login.
+create ticket,Ticket030,Password reset,My reset link is invalid and I cannot change my password. Please send a new link.
+create ticket,Ticket031,Account locked,I was locked out after several tries while fixing my password. Please unlock and advise next steps.
+create ticket,Ticket032,Account setup,The onboarding wizard stops after profile details and never completes. Please finish setup.
+create ticket,Ticket033,Form addition,I need a form added for compliance data in my profile. Please add it soon.
+create ticket,Ticket034,Login issues,I am stuck at login and the site loops back to sign in. Please investigate.
+create ticket,Ticket035,Password reset,After I submit a new password the page errors out. Please reset it for me.
+create ticket,Ticket036,Account locked,Account is locked due to failed attempts from another browser. Please unlock it.
+create ticket,Ticket037,Account setup,Profile step does not save and setup never completes. Please fix the flow.
+create ticket,Ticket038,Form addition,Please add a new profile form for additional patient fields. Confirm when available.
+create ticket,Ticket039,Login issues,I receive no MFA code and login fails. Please resolve authentication.
+create ticket,Ticket040,Password reset,Reset email link expired before I could use it. Please issue a new link.
+create ticket,Ticket041,Account locked,I cannot access my account because it is locked after failed sign ins. Please unlock it.
+create ticket,Ticket042,Account setup,Onboarding freezes after profile creation and features remain disabled. Please complete setup.
+create ticket,Ticket043,Form addition,I need a new form to capture extra profile details. Please add it and notify me.
+create ticket,Ticket044,Login issues,Login screen keeps looping even with correct credentials. Please fix the issue.
+create ticket,Ticket045,Password reset,The reset page does not accept my new password. Please assist with reset.
+create ticket,Ticket046,Account locked,I was locked out while trying to sign in quickly. Please unlock my account.
+create ticket,Ticket047,Account setup,Setup returns to the first step after I save profile info. Please finalize onboarding.
+create ticket,Ticket048,Form addition,Please add a profile form for extra workflow fields. Let me know when it is ready.
+create ticket,Ticket049,Login issues,Sign in fails and MFA code never arrives. Please restore access.
+create ticket,Ticket050,Password reset,Reset link fails every time I submit a new password. Please provide a working link.
+create ticket,Ticket051,Account locked,Account was locked after too many password attempts. Please unlock and advise verification.
+create ticket,Ticket052,Account setup,The setup checklist will not complete and features stay off. Please enable my account.
+create ticket,Ticket053,Form addition,I need another form added to my profile for compliance fields. Please add it.
+create ticket,Ticket054,Login issues,I am unable to log in and the login page loops. Please investigate and fix.
+create ticket,Ticket055,Password reset,The reset link says it cannot complete the request. Please send a valid reset.
+create ticket,Ticket056,Account locked,I am locked out after repeated sign in attempts. Please unlock my account.
+create ticket,Ticket057,Account setup,Setup keeps restarting after profile step and I cannot finish onboarding. Please help.
+create ticket,Ticket058,Form addition,Please add a form to capture extra data fields for my profile. Confirm when done.
+create ticket,Ticket059,Login issues,MFA prompt appears but no code is delivered and login fails. Please resolve.
+create ticket,Ticket060,Password reset,Reset flow fails after I enter the new password. Please reset it for me.
+create ticket,Ticket061,Account locked,My account is disabled after too many failed logins. Please unlock it soon.
+create ticket,Ticket062,Account setup,The onboarding page freezes after I enter profile details. Please complete setup.
+create ticket,Ticket063,Form addition,I need a new profile form for additional required fields. Please add it.
+create ticket,Ticket064,Login issues,I cannot log in and I keep getting sent back to sign in. Please restore access.
+create ticket,Ticket065,Password reset,My reset email link is invalid and the password never updates. Please assist.
+create ticket,Ticket066,Account locked,Account locked after attempts from a new device. Please unlock and confirm checks.
+create ticket,Ticket067,Account setup,Profile step will not save and onboarding loops. Please fix setup.
+create ticket,Ticket068,Form addition,Please add an extra form to my profile for compliance data. Notify me when ready.
+create ticket,Ticket069,Login issues,Login fails even with correct password and MFA code never arrives. Please help.
+create ticket,Ticket070,Password reset,Reset link expired and new attempts still fail. Please issue a valid link.
+create ticket,Ticket071,Account locked,My account is locked after repeated sign in attempts. Please unlock it.
+create ticket,Ticket072,Account setup,Onboarding stalls after profile details and features remain disabled. Please complete setup.
+create ticket,Ticket073,Form addition,I need a new form to capture additional profile data. Please add it and confirm.
+create ticket,Ticket074,Login issues,Sign in keeps failing and I am returned to the login page. Please fix it.
+create ticket,Ticket075,Password reset,Password reset fails after I submit a new password. Please reset it.
+create ticket,Ticket076,Account locked,Account is locked after too many attempts while I tried to remember my password. Please unlock it.
+create ticket,Ticket077,Account setup,Setup does not progress beyond profile step. Please finalize onboarding.
+create ticket,Ticket078,Form addition,Please add a form to my profile for extra required fields. Let me know when live.
+create ticket,Ticket079,Login issues,MFA code is not delivered and login fails. Please resolve authentication.
+create ticket,Ticket080,Password reset,The reset link fails and I cannot update my password. Please send a new link.
+create ticket,Ticket081,Account locked,I was locked out after multiple sign in attempts. Please unlock my account.
+create ticket,Ticket082,Account setup,The onboarding checklist loops after I submit my profile. Please complete setup.
+create ticket,Ticket083,Form addition,I need another form added for new workflow fields. Please add it soon.
+create ticket,Ticket084,Login issues,Login fails even though credentials are correct. Please restore access.
+create ticket,Ticket085,Password reset,Reset page errors after I enter a new password. Please reset it for me.
+create ticket,Ticket086,Account locked,My account was disabled after several failed attempts. Please unlock it.
+create ticket,Ticket087,Account setup,Profile step will not complete and onboarding restarts. Please fix setup.
+create ticket,Ticket088,Form addition,Please add a new profile form for compliance information. Confirm when ready.
+create ticket,Ticket089,Login issues,The login process loops and MFA code never arrives. Please fix.
+create ticket,Ticket090,Password reset,Reset link is invalid and the password never updates. Please provide a valid link.
+create ticket,Ticket091,Account locked,Account locked after repeated login attempts from another browser. Please unlock it.
+create ticket,Ticket092,Account setup,Onboarding stops after profile creation and features are not enabled. Please complete setup.
+create ticket,Ticket093,Form addition,I need a form added for additional profile details. Please add it and notify me.
+create ticket,Ticket094,Login issues,I cannot log in and the site keeps redirecting me to sign in. Please resolve.
+create ticket,Ticket095,Password reset,Reset link fails after I submit a new password. Please help reset it.
+create ticket,Ticket096,Account locked,My account is locked after failed attempts and I cannot access anything. Please unlock.
+create ticket,Ticket097,Account setup,Setup is stuck after profile details and will not finish. Please fix onboarding.
+create ticket,Ticket098,Form addition,Please add an extra form to capture required profile fields. Confirm when done.
+create ticket,Ticket099,Login issues,Login fails with correct password and MFA code does not arrive. Please assist.
+create ticket,Ticket100,Password reset,The reset link expires too quickly and retry fails. Please send a new link.
+create ticket,Ticket101,Account locked,I was locked out after too many sign in attempts. Please unlock my account.
+create ticket,Ticket102,Account setup,Onboarding does not complete after I save my profile. Please activate my account.
+create ticket,Ticket103,Form addition,I need a new form added to my profile for required data. Please add it.
+create ticket,Ticket104,Login issues,Login screen loops and I cannot access my account. Please fix it.
+create ticket,Ticket105,Password reset,Reset fails after I enter a new password and I stay locked out. Please help.
+create ticket,Ticket106,Account locked,Account disabled after failed login attempts. Please unlock and advise next steps.
+create ticket,Ticket107,Account setup,The setup page restarts after profile submission. Please finish onboarding.
+create ticket,Ticket108,Form addition,Please add a new form for extra data fields in my profile. Confirm when ready.
+create ticket,Ticket109,Login issues,Sign in fails and MFA code is never delivered. Please resolve this issue.
+create ticket,Ticket110,Password reset,Reset link opens but the update fails each time. Please provide a working link.
+create ticket,Ticket111,Account locked,My account was locked after several incorrect passwords. Please unlock it.
+create ticket,Ticket112,Account setup,Onboarding freezes after profile details and features stay disabled. Please complete setup.
+create ticket,Ticket113,Form addition,I need an additional profile form for compliance data. Please add it soon.
+create ticket,Ticket114,Login issues,Login keeps failing even though my credentials are right. Please restore access.
+create ticket,Ticket115,Password reset,The reset page errors and the password does not change. Please reset it.
+create ticket,Ticket116,Account locked,Account is locked and I cannot sign in after repeated attempts. Please unlock it.
+create ticket,Ticket117,Account setup,Profile step does not save and onboarding loops to the start. Please fix.
+create ticket,Ticket118,Form addition,Please add a form to capture extra profile information. Notify me when ready.
+create ticket,Ticket119,Login issues,MFA code does not arrive and login fails. Please fix authentication.
+create ticket,Ticket120,Password reset,Reset link is invalid and every attempt fails. Please send a valid reset.
+create ticket,Ticket121,Account locked,My account got locked after trying passwords and I cannot access now. Please unlock.
+create ticket,Ticket122,Account setup,Setup cannot finish after profile details and features stay off. Please finalize setup.
+create ticket,Ticket123,Form addition,I need a new form added for extra required profile fields. Please add it.
+create ticket,Ticket124,Login issues,I am stuck at login and the page loops back to sign in. Please resolve.
+create ticket,Ticket125,Password reset,The reset link fails after I submit the new password. Please reset it for me.
+create ticket,Ticket126,Account locked,Account locked after too many sign in attempts. Please unlock and advise steps.
+create ticket,Ticket127,Account setup,Onboarding keeps restarting after profile step. Please complete setup.
+create ticket,Ticket128,Form addition,Please add a profile form for new workflow fields. Confirm when available.
+create ticket,Ticket129,Login issues,Login fails and MFA code never arrives. Please restore access.
+create ticket,Ticket130,Password reset,Reset email link is expired and I cannot change my password. Please help.
+create ticket,Ticket131,Account locked,I was locked out while trying to sign in and now access is disabled. Please unlock.
+create ticket,Ticket132,Account setup,The onboarding checklist will not complete after profile details. Please finish setup.
+create ticket,Ticket133,Form addition,I need a new form added to capture extra profile data. Please add it soon.
+create ticket,Ticket134,Login issues,Sign in returns me to the login page every time. Please fix the login flow.
+create ticket,Ticket135,Password reset,Password reset fails and the page errors out. Please send a working link.
+create ticket,Ticket136,Account locked,Account locked after repeated failed logins. Please unlock my account.
+create ticket,Ticket137,Account setup,Setup is stuck after profile creation and features remain disabled. Please complete it.
+create ticket,Ticket138,Form addition,Please add a new form to my profile for compliance fields. Confirm when ready.
+create ticket,Ticket139,Login issues,I cannot log in because MFA code never arrives. Please fix MFA delivery.
+create ticket,Ticket140,Password reset,Reset link does not work after I submit a new password. Please reset it.
+create ticket,Ticket141,Account locked,My account is locked after too many attempts. Please unlock and advise next steps.
+create ticket,Ticket142,Account setup,Onboarding returns to the first step after I save profile info. Please help.
+create ticket,Ticket143,Form addition,I need another form added to my profile for required fields. Please add it.
+create ticket,Ticket144,Login issues,Login keeps failing and I am redirected to sign in. Please restore access.
+create ticket,Ticket145,Password reset,Reset link fails and I remain locked out. Please provide a valid reset.
+create ticket,Ticket146,Account locked,Account is disabled after failed login attempts. Please unlock it soon.
+create ticket,Ticket147,Account setup,Profile step will not complete and onboarding loops. Please finalize setup.
+create ticket,Ticket148,Form addition,Please add a form for additional profile data and confirm when it is available.
+create ticket,Ticket149,Login issues,Sign in fails and the page loops even with correct credentials. Please fix it.
+create ticket,Ticket150,Password reset,The reset page rejects my new password each time. Please assist.
+create ticket,Ticket151,Account locked,I cannot access my account because it is locked after repeated attempts. Please unlock.
+create ticket,Ticket152,Account setup,Setup cannot complete and features remain disabled after profile details. Please help.
+create ticket,Ticket153,Form addition,I need a new profile form for extra data capture. Please add it and notify me.
+create ticket,Ticket154,Login issues,MFA code never arrives and login fails. Please resolve this.
+create ticket,Ticket155,Password reset,Reset link is not valid and the password does not update. Please send a new link.
+create ticket,Ticket156,Account locked,Account locked after failed sign in attempts on a new device. Please unlock.
+create ticket,Ticket157,Account setup,Onboarding freezes after profile creation and I cannot enable features. Please complete setup.
+create ticket,Ticket158,Form addition,Please add a new form to capture required profile fields. Confirm when live.
+create ticket,Ticket159,Login issues,Login loops back to sign in and I cannot access my account. Please investigate.
+create ticket,Ticket160,Password reset,Reset flow fails after I submit the new password. Please reset it for me.
+create ticket,Ticket161,Account locked,I was locked out after several password attempts. Please unlock and advise steps.
+create ticket,Ticket162,Account setup,The setup wizard stops after profile details and will not finish. Please finalize.
+create ticket,Ticket163,Form addition,I need a form added for additional workflow data in my profile. Please add it.
+create ticket,Ticket164,Login issues,I cannot log in and MFA codes do not arrive. Please fix login.
+create ticket,Ticket165,Password reset,Reset link expired and retry fails every time. Please issue a new link.
+create ticket,Ticket166,Account locked,My account is locked and I cannot sign in. Please unlock it.
+create ticket,Ticket167,Account setup,Onboarding restarts after profile submission and I cannot complete setup. Please help.
+create ticket,Ticket168,Form addition,Please add a form for extra profile fields and confirm when ready.
+create ticket,Ticket169,Login issues,Sign in fails even with correct password and I am looped to login. Please fix.
+create ticket,Ticket170,Password reset,Reset page errors and my password remains unchanged. Please assist.
+create ticket,Ticket171,Account locked,Account locked after too many failed sign ins. Please unlock it for me.
+create ticket,Ticket172,Account setup,Setup is stuck after profile step and features stay disabled. Please complete setup.
+create ticket,Ticket173,Form addition,I need a new form added to my profile for required fields. Please add it soon.
+create ticket,Ticket174,Login issues,I cannot log in and the login page keeps looping. Please resolve.
+create ticket,Ticket175,Password reset,Reset link does not work after I submit a new password. Please help reset.
+create ticket,Ticket176,Account locked,My account is locked after failed attempts and I need access. Please unlock it.
+create ticket,Ticket177,Account setup,Onboarding will not complete after profile creation. Please finalize setup.
+create ticket,Ticket178,Form addition,Please add an extra form to my profile for compliance data. Confirm when available.
+create ticket,Ticket179,Login issues,MFA code never arrives and I cannot sign in. Please fix authentication.
+create ticket,Ticket180,Password reset,Reset flow fails after I enter the new password. Please send a working link.
+create ticket,Ticket181,Account locked,I am locked out after repeated login attempts. Please unlock and advise next steps.
+create ticket,Ticket182,Account setup,Setup loops back to the start after profile details. Please complete onboarding.
+create ticket,Ticket183,Form addition,I need a form added for extra profile data fields. Please add it and notify me.
+create ticket,Ticket184,Login issues,Login fails even with correct credentials and I cannot access my account. Please restore.
+create ticket,Ticket185,Password reset,Reset link is invalid and I cannot change my password. Please send a new one.
+create ticket,Ticket186,Account locked,Account locked after failed logins and I cannot access my work. Please unlock.
+create ticket,Ticket187,Account setup,The onboarding process will not finish after profile creation. Please help complete setup.
+create ticket,Ticket188,Form addition,Please add a new form to capture additional profile requirements. Confirm when ready.
+create ticket,Ticket189,Login issues,Login keeps looping and MFA code never arrives. Please fix the issue.
+create ticket,Ticket190,Password reset,Reset link fails and I remain locked out. Please provide a working reset.
+create ticket,Ticket191,Account locked,My account is locked after too many attempts while trying to sign in. Please unlock.
+create ticket,Ticket192,Account setup,Onboarding checklist does not finish and features are disabled. Please complete setup.
+create ticket,Ticket193,Form addition,I need a new profile form for extra required fields. Please add it.
+create ticket,Ticket194,Login issues,Sign in fails and I am returned to the login page each time. Please fix.
+create ticket,Ticket195,Password reset,Reset page errors after I enter the new password. Please reset it.
+create ticket,Ticket196,Account locked,Account locked after too many failed sign in attempts. Please unlock it now.
+create ticket,Ticket197,Account setup,Setup is stuck after profile details and onboarding does not complete. Please help.
+create ticket,Ticket198,Form addition,Please add a form for extra profile data fields and confirm when available.
+create ticket,Ticket199,Login issues,Login fails and MFA code does not arrive. Please restore access.
+create ticket,Ticket200,Password reset,The reset link does not work and I cannot change my password. Please assist.

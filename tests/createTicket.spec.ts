@@ -8,7 +8,7 @@ import endpoints from "../resources/Data/endpoints.json";
 const resultsFolder = path.join(__dirname, 'test-results');
 if (!fs.existsSync(resultsFolder)) fs.mkdirSync(resultsFolder);
 
-const REQUESTS_PER_10_SECONDS = 10;
+const REQUESTS_PER_10_SECONDS = 20;
 const WINDOW_MS = 20_000;
 const INTERVAL_MS = Math.ceil(WINDOW_MS / REQUESTS_PER_10_SECONDS);
 
@@ -16,7 +16,7 @@ const rateLimitWait = async () => new Promise<void>((resolve) => setTimeout(reso
 
 var filtersRecords: any = [];
 const filters = new Map([
-    ["Scenario", 'create ticket1']
+    ["Scenario", 'create ticket']
 ]);
 filtersRecords = getTestData(filters, 'resources/Data/createTickets.csv');
 

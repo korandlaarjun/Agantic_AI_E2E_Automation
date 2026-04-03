@@ -1,34 +1,40 @@
 {
-  "name": "zendesk-e2e-automation",
+  "name": "ai-automation-e2e",
   "version": "1.0.0",
-  "description": "End-to-end automation tests for Zendesk",
-  "main": "index.js",
+  "description": "AI Automation End-to-End Testing",
+  "main": "src/index.ts",
   "scripts": {
     "test": "playwright test",
     "test:headed": "playwright test --headed",
     "test:debug": "playwright test --debug",
     "test:ui": "playwright test --ui",
-    "codegen": "playwright codegen https://pederorxai.zendesk.com/login",
-    "CreateTicket": "npx playwright test --grep CreateTicket --workers=1",
-    "GetTicket": "npx playwright test --grep GetTicket --workers=1"
+    "build": "tsc",
+    "dev": "ts-node",
+    "codegen": "playwright codegen",
+    "lint": "eslint src/**/*.ts",
+    "format": "prettier --write src/**/*.ts"
   },
   "keywords": [
-    "zendesk",
     "automation",
     "e2e",
-    "playwright"
+    "playwright",
+    "ai"
   ],
   "author": "",
   "license": "MIT",
   "devDependencies": {
     "@playwright/test": "^1.40.0",
-    "@types/node": "^25.3.0",
-    "@types/nodemailer": "^7.0.11",
-    "dotenv": "^16.0.0"
+    "@types/node": "^20.0.0",
+    "@typescript-eslint/eslint-plugin": "^6.0.0",
+    "@typescript-eslint/parser": "^6.0.0",
+    "eslint": "^8.0.0",
+    "prettier": "^3.0.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.0"
   },
   "dependencies": {
-    "csv-parse": "^6.1.0",
-    "nodemailer": "^8.0.1",
-    "playwright": "^1.58.2"
+    "axios": "^1.6.0",
+    "dotenv": "^16.3.1",
+    "playwright": "^1.40.0"
   }
 }

@@ -1,23 +1,18 @@
-# Zendesk E2E Automation
+# AI Automation E2E Testing
 
-End-to-end automation tests for Zendesk using Playwright.
-
-## Overview
-
-This project provides a comprehensive end-to-end testing framework for Zendesk using Playwright. It includes setup instructions, example tests, and CI/CD integration.
+A comprehensive end-to-end testing framework for AI automation using Playwright and TypeScript.
 
 ## Prerequisites
 
-- Node.js 16+ installed
+- Node.js 18+ installed
 - npm or yarn package manager
-- Zendesk account (for running tests)
 
 ## Installation
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/korandlaarjun/zendesk-e2e-automation.git
-cd zendesk-e2e-automation
+git clone <repository-url>
+cd ai-automation-e2e
 ```
 
 2. Install dependencies:
@@ -35,11 +30,11 @@ npx playwright install
 cp .env.example .env
 ```
 
-Edit `.env` and add your Zendesk credentials:
+Edit `.env` with your configuration:
 ```bash
-ZENDESK_BASE_URL=https://your-subdomain.zendesk.com
-ZENDESK_EMAIL=your-email@example.com
-ZENDESK_PASSWORD=your-password
+BASE_URL=http://localhost:3000
+API_URL=http://localhost:3000/api
+NODE_ENV=development
 ```
 
 ## Running Tests
@@ -48,6 +43,73 @@ ZENDESK_PASSWORD=your-password
 ```bash
 npm test
 ```
+
+### Run tests in headed mode (see browser)
+```bash
+npm run test:headed
+```
+
+### Run tests in debug mode
+```bash
+npm run test:debug
+```
+
+### Run tests in UI mode
+```bash
+npm run test:ui
+```
+
+### Code generation for recording tests
+```bash
+npm run codegen http://localhost:3000
+```
+
+## Project Structure
+
+```
+├── src/
+│   └── index.ts          # Main entry point
+├── tests/
+│   └── example.spec.ts   # Example test file
+├── playwright.config.ts  # Playwright configuration
+├── tsconfig.json         # TypeScript configuration
+├── package.json
+└── README.md
+```
+
+## Development
+
+### Build TypeScript
+```bash
+npm run build
+```
+
+### Run linter
+```bash
+npm run lint
+```
+
+### Format code
+```bash
+npm run format
+```
+
+## CI/CD Integration
+
+The project is configured for CI/CD pipelines. Tests will run with:
+- Single worker (sequential execution)
+- 2 retry attempts on failure
+- HTML report generation
+
+## Troubleshooting
+
+- **Port already in use**: Change the port in `playwright.config.ts`
+- **Playwright browser issues**: Run `npx playwright install` again
+- **Environment variables not loading**: Ensure `.env` file is in the root directory
+
+## License
+
+MIT
 
 ### Run tests in headed mode (see browser)
 ```bash
