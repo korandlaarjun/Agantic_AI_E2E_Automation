@@ -11,6 +11,7 @@ A comprehensive end-to-end testing framework for AI automation using Playwright,
 - **Testing Agents**: 4 specialized AI agents (Engineer, Planner, Executer, Healer)
 - **CI/CD Ready**: Automated testing pipeline configured
 - **Performance Optimized**: Parallel execution and monitoring included
+- **MCP Server**: AI assistant integration for automated testing
 
 ## AI Automation E2E Testing
 
@@ -47,6 +48,41 @@ Edit `.env` with your configuration:
 BASE_URL=http://localhost:3000
 API_URL=http://localhost:3000/api
 NODE_ENV=development
+```
+
+## 🚀 CI/CD Pipeline
+
+This project includes comprehensive GitHub Actions workflows for automated testing and deployment:
+
+### Workflows Included
+
+- **CI/CD Pipeline** (`.github/workflows/ci.yml`): Main pipeline for testing, building, and deployment
+- **Playwright Tests** (`.github/workflows/playwright.yml`): Dedicated E2E testing with scheduled runs
+- **Code Quality** (`.github/workflows/quality.yml`): Linting, type checking, security audits, and coverage
+
+### Pipeline Features
+
+- ✅ **Multi-Node Testing**: Tests on Node.js 18.x and 20.x
+- ✅ **Cross-Platform**: Ubuntu runners with Playwright container support
+- ✅ **Security Scanning**: Automated vulnerability checks
+- ✅ **Artifact Management**: Test results, build artifacts, and coverage reports
+- ✅ **Deployment Ready**: Staging and production deployment jobs
+- ✅ **Scheduled Testing**: Daily automated test runs
+- ✅ **Quality Gates**: ESLint, Prettier, TypeScript checks
+
+### Local Testing
+
+Test workflows locally using [act](https://github.com/nektos/act):
+
+```bash
+# Install act
+brew install act
+
+# Run CI workflow locally
+act -j test
+
+# Run with secrets (if needed)
+act -j test --secret-file .secrets
 ```
 
 ## Running Tests
