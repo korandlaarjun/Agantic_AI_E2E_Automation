@@ -21,6 +21,8 @@ We have one comprehensive AI agent that handles all aspects of testing:
 - [x] VS Code tasks configured for build, test, and dev
 - [x] Comprehensive Test Engineer agent configured for all testing needs
 - [x] Git hooks and branching strategy implemented
+- [x] MCP server integrated with testing tools
+- [x] GitHub Actions CI/CD pipelines configured
 
 ## Project Information
 
@@ -28,7 +30,17 @@ We have one comprehensive AI agent that handles all aspects of testing:
 **Version:** 1.0.0  
 **Type:** Node.js/TypeScript  
 **Testing Framework:** Playwright  
-**Agents Included:** Test Engineer, Test Planner, Test Executer, Test Healer
+**Agents Included:** Test Engineer, Test Planner, Test Executer, Test Healer  
+**MCP Server:** Integrated for AI-assisted testing workflows
+
+## MCP Server Integration
+
+This project includes a Model Context Protocol (MCP) server that exposes testing tools for AI assistants.
+
+- **SDK Documentation:** [MCP TypeScript SDK](https://github.com/modelcontextprotocol/typescript-sdk)
+- **Protocol Specification:** [MCP Spec](https://spec.modelcontextprotocol.io/)
+- **Server File:** `src/mcp-server.ts`
+- **Configuration:** `.vscode/mcp.json`
 
 ## Available Scripts
 
@@ -36,6 +48,7 @@ We have one comprehensive AI agent that handles all aspects of testing:
 - `npm run test:headed` - Run tests with browsers visible
 - `npm run test:ui` - Run tests in UI mode
 - `npm run build` - Compile TypeScript to JavaScript
+- `npm run mcp-server` - Start the MCP server for AI assistants
 - `npm run lint` - Run ESLint
 - `npm run format` - Format code with Prettier
 
