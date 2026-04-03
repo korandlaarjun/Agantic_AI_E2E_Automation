@@ -1,0 +1,23 @@
+{
+  "folders": [
+    {
+      "path": ".",
+      "name": "Agantic AI E2E Automation"
+    }
+  ],
+  "settings": {
+    "git.autofetch": true,
+    "git.ignoreLimitWarning": true,
+    "git.defaultCloneDirectory": null,
+    "[terminal]": {
+      "integrated.cwd": "${workspaceFolder}"
+    }
+  },
+  "extensions": {
+    "recommendations": [
+      "esbenp.prettier-vscode",
+      "dbaeumer.vscode-eslint",
+      "ms-playwright.playwright"
+    ]
+  }
+}

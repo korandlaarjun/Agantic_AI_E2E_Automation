@@ -1,6 +1,18 @@
-# AI Automation E2E Testing
+# Agantic AI E2E Automation
 
-A comprehensive end-to-end testing framework for AI automation using Playwright and TypeScript.
+A comprehensive end-to-end testing framework for AI automation using Playwright, TypeScript, and 4 specialized testing agents.
+
+**Repository**: https://github.com/korandlaarjun/Agantic_AI_E2E_Automation  
+**This VS Code Workspace** is configured to sync with the above repository for all git operations.
+
+## 🎯 Quick Overview
+
+- **Framework**: Playwright + TypeScript
+- **Testing Agents**: 4 specialized AI agents (Engineer, Planner, Executer, Healer)
+- **CI/CD Ready**: Automated testing pipeline configured
+- **Performance Optimized**: Parallel execution and monitoring included
+
+## AI Automation E2E Testing
 
 ## Prerequisites
 
@@ -11,8 +23,8 @@ A comprehensive end-to-end testing framework for AI automation using Playwright 
 
 1. Clone the repository:
 ```bash
-git clone <repository-url>
-cd ai-automation-e2e
+git clone https://github.com/korandlaarjun/Agantic_AI_E2E_Automation.git
+cd Agantic_AI_E2E_Automation
 ```
 
 2. Install dependencies:

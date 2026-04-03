@@ -1,0 +1,43 @@
+{
+  "// Remote Repository": "https://github.com/korandlaarjun/Agantic_AI_E2E_Automation.git",
+  "// Project Name": "Agantic AI E2E Automation",
+  "// Description": "AI-powered end-to-end testing framework with 4 specialized agents",
+  
+  "[typescript]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[markdown]": {
+    "editor.formatOnSave": true,
+    "editor.wordWrap": "on"
+  },
+  
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  
+  "search.exclude": {
+    "node_modules": true,
+    "dist": true,
+    "*.log": true
+  },
+  
+  "files.exclude": {
+    "**/.DS_Store": true,
+    "**/*.log": true
+  },
+  
+  "files.watcherExclude": {
+    "**/.git/objects/**": true,
+    "**/.git/subtree-cache/**": true,
+    "**/node_modules/*/**": true
+  }
+}
