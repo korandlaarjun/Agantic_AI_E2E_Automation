@@ -23,6 +23,11 @@ We have one comprehensive AI agent that handles all aspects of testing:
 - [x] Git hooks and branching strategy implemented
 - [x] MCP server integrated with testing tools
 - [x] GitHub Actions CI/CD pipelines configured
+- [x] Advanced MCP server with 10 specialized tools
+- [x] 4 specialized testing agents (Performance, Accessibility, Security, Reliability)
+- [x] Automated test orchestration and analysis scripts
+- [x] Comprehensive documentation and guides
+- [x] Quality improvement tooling and configurations
 
 ## Project Information
 
@@ -170,7 +175,20 @@ See **`.github/BRANCHING-STRATEGY.md`** for complete details including:
 
 - **Full Guide**: `.github/AGENTS.md` - Complete orchestration guide with workflows
 - **Quick Reference**: `.github/AGENTS-QUICK-REFERENCE.md` - Fast lookup and examples
+- **Specialized Agents**: `.github/SPECIALIZED-AGENTS.md` - New agents (Performance, Accessibility, Security, Reliability)
 - **Individual Agents**: `.github/agents/` - Detailed agent files
+
+## MCP Server Documentation
+
+- **Complete Guide**: `.github/MCP-SERVER-GUIDE.md` - All 10 tools with examples
+- **Configuration**: `.vscode/mcp.json` - MCP server setup
+- **Server Code**: `src/mcp-server.ts` - Implementation details
+
+## Automation & Testing
+
+- **Automation Scripts**: `.github/AUTOMATION-SCRIPTS.md` - Advanced orchestration scripts
+- **Scripts Location**: `.github/scripts/` - orchestrate-tests.sh, analyze-results.sh
+- **NPM Scripts**: `npm run` commands for quality, testing, analysis
 
 ## Configuration
 
