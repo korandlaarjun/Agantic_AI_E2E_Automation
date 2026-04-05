@@ -144,7 +144,7 @@ Commands:
 Examples:
     bash orchestrate-tests.sh metrics dev
     bash orchestrate-tests.sh parallel staging
-    bash orchestrate-tests.sh flakiness "CreateTicket" 10
+    bash orchestrate-tests.sh flakiness "nopcommerce" 10
     bash orchestrate-tests.sh analyze dev
     bash orchestrate-tests.sh coverage
 

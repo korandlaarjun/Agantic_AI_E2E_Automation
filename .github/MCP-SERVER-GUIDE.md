@@ -19,43 +19,30 @@ Execute Playwright E2E tests with multiple options.
 ```
 Test Environment: dev
 Run with browser visible: headed=true
-Filter tests: grep="CreateTicket"
+Filter tests: grep="nopcommerce"
 ```
 
-### 2. get_test_results
-Retrieve and format test results.
-
-**Parameters:**
-- `environment` (string): dev or staging
-- `format` (string): summary, json, or detailed
-
-**Example:**
-```
-Get summary of staging test results
-Compare JSON structure across environments
-```
-
-### 3. analyze_test_performance
+### 2. analyze_test_performance
 Analyze test execution speed and identify bottlenecks.
 
 **Parameters:**
 - `environment` (string): dev or staging
 - `threshold_ms` (number): Flag slow tests (default: 5000ms)
 
-### 4. get_test_coverage
+### 3. get_test_coverage
 Generate coverage reports and metrics.
 
 **Parameters:**
 - `format` (string): summary, detailed, or json
 
-### 5. manage_environment
+### 4. manage_environment
 Set up, tear down, or check environment status.
 
 **Parameters:**
 - `action` (string): setup, teardown, status, or reset
 - `environment` (string): dev or staging
 
-### 6. debug_test_failure
+### 5. debug_test_failure
 Deep analysis of specific test failures.
 
 **Parameters:**
@@ -63,7 +50,7 @@ Deep analysis of specific test failures.
 - `environment` (string): dev or staging
 - `include_logs` (boolean): Include detailed logs
 
-### 7. generate_test_report
+### 6. generate_test_report
 Create comprehensive reports in multiple formats.
 
 **Parameters:**
@@ -71,21 +58,21 @@ Create comprehensive reports in multiple formats.
 - `include_trends` (boolean): Add historical trends
 - `date_range` (string): today, week, month, or all
 
-### 8. run_security_tests
+### 7. run_security_tests
 Execute security-focused tests.
 
 **Parameters:**
 - `environment` (string): dev or staging
 - `check_dependencies` (boolean): Scan for vulnerabilities
 
-### 9. run_accessibility_tests
+### 8. run_accessibility_tests
 Run WCAG compliance tests.
 
 **Parameters:**
 - `environment` (string): dev or staging
 - `wcag_level` (string): A, AA, or AAA
 
-### 10. get_mcp_server_status
+### 9. get_mcp_server_status
 Get server health and performance metrics.
 
 **Parameters:**
@@ -123,7 +110,7 @@ Parameters:
 ```
 Tool: debug_test_failure
 Parameters:
-  test_name: "should create ticket successfully"
+  test_name: "should load nopcommerce homepage"
   environment: "dev"
   include_logs: true
 ```
@@ -143,7 +130,7 @@ Parameters:
 - Goal: Vulnerability detection
 
 ### Reliability Agent
-- Uses: run_tests (multiple times), debug_test_failure, get_test_results
+- Uses: run_tests (multiple times), debug_test_failure
 - Goal: Flakiness detection
 
 ## Advanced Workflows

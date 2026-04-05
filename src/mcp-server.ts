@@ -48,27 +48,6 @@ const tools = [
     }
   },
   {
-    name: "get_test_results",
-    description: "Get the latest test results and summary",
-    inputSchema: {
-      type: "object" as const,
-      properties: {
-        environment: {
-          type: "string",
-          description: "Environment results to get (dev, staging)",
-          enum: ["dev", "staging"],
-          default: "dev"
-        },
-        format: {
-          type: "string",
-          description: "Output format (summary, json, detailed)",
-          enum: ["summary", "json", "detailed"],
-          default: "summary"
-        }
-      }
-    }
-  },
-  {
     name: "analyze_test_performance",
     description: "Analyze test execution performance and identify slow tests",
     inputSchema: {
@@ -273,36 +252,6 @@ server.setRequestHandler("tools/call", async (request) => {
           });
         });
       });
-    }
-
-    case "get_test_results": {
-      const environment = (args?.environment as string) || "dev";
-      const format = (args?.format as string) || "summary";
-      const fs = await import("fs");
-      const path = await import("path");
-
-      const resultsFolder = path.join(__dirname, "..", "tests", "test-results");
-      const csvPath = path.join(resultsFolder, `ticket_ids_${environment}.csv`);
-
-      try {
-        if (fs.existsSync(csvPath)) {
-          const content = fs.readFileSync(csvPath, "utf8");
-          const lines = content.split("\n").filter(l => l);
-          const summary = `Test Results for ${environment}:\n- Total records: ${lines.length - 1}\n- Generated: ${new Date().toISOString()}`;
-          
-          const output = format === "json" ? JSON.stringify({ environment, total: lines.length - 1, records: lines }) : summary;
-          
-          return {
-            content: [{ type: "text", text: output }]
-          };
-        } else {
-          return {
-            content: [{ type: "text", text: `No test results found for ${environment} environment.` }]
-          };
-        }
-      } catch (error) {
-        return { content: [{ type: "text", text: `Error: ${error}` }] };
-      }
     }
 
     case "analyze_test_performance": {

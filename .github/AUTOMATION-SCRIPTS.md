@@ -63,7 +63,7 @@ bash .github/scripts/orchestrate-tests.sh parallel dev
 #### Flakiness Detection
 ```bash
 # Run specific test 5 times
-bash .github/scripts/orchestrate-tests.sh flakiness "CreateTicket" 5
+bash .github/scripts/orchestrate-tests.sh flakiness "nopcommerce" 5
 
 # Run all tests 10 times
 bash .github/scripts/orchestrate-tests.sh flakiness "" 10
@@ -233,7 +233,7 @@ npm run test:parallel dev
 ### Custom Test Filtering
 ```bash
 # Combine orchestration with grep
-npm run test -- --grep "CreateTicket"
+npm run test -- --grep "nopcommerce"
 
 # Run with metrics
 npm run test:metrics dev
