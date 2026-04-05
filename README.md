@@ -182,15 +182,20 @@ npm run codegen
 ## Project Structure
 
 ```
-zendesk-e2e-automation/
-├── tests/
-│   ├── example.spec.ts       # Example test file
-│   └── ...                   # Add more test files here
-├── playwright.config.ts      # Playwright configuration
-├── package.json              # Project dependencies
-├── .env.example              # Environment variables template
-├── .gitignore                # Git ignore rules
-└── README.md                 # This file
+ai-automation-e2e/
+├── src/                     # Source TypeScript files
+├── tests/                   # Test specifications
+│   ├── nopcommerce*.spec.ts # nopCommerce e-commerce tests
+│   └── pageObjects/         # Page object models
+├── dist/                    # Compiled JavaScript (generated)
+├── playwright-report/       # Test reports
+├── test-results/            # Test artifacts
+├── .vscode/                 # VS Code configuration
+├── .github/                 # GitHub Actions and agents
+├── .env.example             # Environment variables template
+├── playwright.config.ts     # Playwright configuration
+├── package.json             # Project dependencies
+└── README.md                # This file
 ```
 
 ## Writing Tests
@@ -201,8 +206,8 @@ zendesk-e2e-automation/
 import { test, expect } from '@playwright/test';
 
 test('my test', async ({ page }) => {
-  await page.goto('https://zendesk.com');
-  await expect(page).toHaveTitle(/Zendesk/);
+  await page.goto('https://example.com');
+  await expect(page).toHaveTitle(/Example/);
 });
 ```
 
@@ -256,7 +261,7 @@ See `.env.example` for all available configuration options.
 ### Tests timeout
 - Increase timeout in `playwright.config.ts`
 - Check network connectivity
-- Verify Zendesk instance is accessible
+- Verify target application is accessible
 
 ### Element not found
 - Use `npm run codegen` to generate selectors
@@ -278,8 +283,8 @@ See `.env.example` for all available configuration options.
 ## Resources
 
 - [Playwright Documentation](https://playwright.dev)
-- [Zendesk API Documentation](https://developer.zendesk.com)
-- [Zendesk Support](https://support.zendesk.com)
+- [TypeScript Documentation](https://www.typescriptlang.org)
+- [Node.js Documentation](https://nodejs.org)
 
 ## License
 

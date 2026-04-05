@@ -8,6 +8,7 @@
     "test:headed": "playwright test --headed",
     "test:debug": "playwright test --debug",
     "test:ui": "playwright test --ui",
+    "test:nopcommerce": "playwright test tests/nopcommerce*.spec.ts",
     "test:metrics": "bash .github/scripts/orchestrate-tests.sh metrics",
     "test:parallel": "bash .github/scripts/orchestrate-tests.sh parallel",
     "test:flaky": "bash .github/scripts/orchestrate-tests.sh flakiness",

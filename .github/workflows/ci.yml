@@ -45,9 +45,6 @@ jobs:
     - name: Run tests
       run: npm test
 
-    - name: Run tests with UI mode (smoke test)
-      run: timeout 30 npm run test:ui -- --project=chromium --grep="should load Zendesk homepage" || echo "UI test completed"
-
     - name: Upload test results
       uses: actions/upload-artifact@v4
       if: always()
